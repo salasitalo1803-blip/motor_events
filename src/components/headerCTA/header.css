@@ -1,0 +1,52 @@
+:root
+{
+--color-black: #000000;
+--color-btn: #b86e00;
+}
+
+.imgLogo
+{
+    height: auto;
+    width: 150px;
+}
+
+.btn
+{
+    border: var(--color-btn) 2px solid;
+    color: white;
+    padding: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.header
+{
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--color-black); 
+}
+
+
+
+.infoMenu
+{
+    color: white;
+    padding: 25px 50px;
+    transition: 0.4s;
+}
+
+.infoMenu:hover
+{
+    background-color: var(--color-btn);
+}
+
+.btn:hover
+{
+    transform: scale(1.02);
+    background-color: var(--color-btn);
+}

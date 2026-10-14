@@ -1,0 +1,12 @@
+footer
+{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+}
+
+.info-footer
+{
+    display: flex;
+}
